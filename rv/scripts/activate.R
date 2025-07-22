@@ -1,4 +1,8 @@
 local({
+	if (!nzchar(Sys.which("rv"))) {
+	  warning("rv is not yet installed, please install first then restart your r session") 
+	  return()
+	}
 	rv_info <- system2("rv", c("info", "--library", "--r-version", "--repositories"), stdout = TRUE)
 	if (!is.null(attr(rv_info, "status"))) {
 		# if system2 fails it'll add a status attribute with the error code
