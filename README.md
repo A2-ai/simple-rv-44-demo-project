@@ -2,13 +2,17 @@ A simple project
 ==================
 
 
-## Installation
+## Installation (if needed)
+
+If you are on a system without rv yet, first run:
 
 ```
 curl -sSL https://raw.githubusercontent.com/A2-ai/rv/refs/heads/main/scripts/install.sh | bash
 
 rv --version
 ```
+
+and make sure it is available on your path (you might need to restart your Rstudio project/terminal session after the first run)
 
 ## expected outputs
 
