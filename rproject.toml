@@ -1,0 +1,16 @@
+[project]
+name = "simple"
+r_version = "4.4"
+
+repositories = [
+   #{ alias = "ghqc-eco", url = "https://prism.dev.a2-ai.cloud/rpkgs/ghqc-eco/v3" },
+   { alias = "PRISM", url = "https://prism.dev.a2-ai.cloud/rpkgs/stratus/2025-06-17" },
+]
+
+dependencies = [
+    "ggplot2",
+    "dplyr",
+    "purrr",
+    "rmarkdown"
+    #"ghqc.app",
+]
